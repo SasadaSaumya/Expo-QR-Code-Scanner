@@ -39,13 +39,6 @@ const styleSheet = StyleSheet.create({
         justifyContent: 'center',
         rowGap: 20
     },
-    mainBtn: {
-        width: 200,
-        height: 40,
-        backgroundColor: "yellow",
-        justifyContent: "center",
-        alignItems: "center",
-    },
     camStyle: {
         position: 'absolute',
         width: 300,

@@ -13,9 +13,9 @@ export default function index() {
     <SafeAreaView style={styleSheet.container}>
       <StatusBar style="auto" />
 
-      <Text>Welcome Expo QR Code Scanner</Text>
+      <Text style={styleSheet.mainText}>Expo QR Code Scanner</Text>
 
-      <Pressable style={styleSheet.mainBtn} onPress={requestPermission}>
+      <Pressable style={[styleSheet.mainBtn, styleSheet.btnGreen]} onPress={requestPermission}>
         <Text>Request Permission</Text>
       </Pressable>
 
@@ -23,7 +23,7 @@ export default function index() {
         () => {
           router.replace("./qrScan");
         }
-      } style={[styleSheet.mainBtn, { opacity: isPermissionGranted ? 1 : 0.5 }]} disabled={!isPermissionGranted} >
+      } style={[styleSheet.mainBtn, styleSheet.btnYellow, { opacity: isPermissionGranted ? 1 : 0.5 }]} disabled={!isPermissionGranted} >
         <Text>Scan Code</Text>
       </Pressable>
 
@@ -42,8 +42,17 @@ const styleSheet = StyleSheet.create({
   mainBtn: {
     width: 200,
     height: 40,
-    backgroundColor: "yellow",
     justifyContent: "center",
     alignItems: "center",
+  },
+  btnGreen: {
+    backgroundColor: "#0BCD4C",
+  },
+  btnYellow: {
+    backgroundColor: "yellow",
+  },
+  mainText: {
+    fontSize: 20,
+    fontWeight: "bold"
   }
 });
