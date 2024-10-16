@@ -37,3 +37,4 @@ To install the necessary libraries for the project, run the following commands:
 - ```
   npx expo install expo-router
   npx expo install expo-camera
+
