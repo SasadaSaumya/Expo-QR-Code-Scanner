@@ -14,7 +14,7 @@
 1. Clone the repository
 
    - ```
-     git clone https://github.com/yourusername/Expo-QR-Code-Scanner.git
+     git clone https://github.com/SasadaSaumya/Expo-QR-Code-Scanner.git
      cd Expo-QR-Code-Scanner
      ```
 
