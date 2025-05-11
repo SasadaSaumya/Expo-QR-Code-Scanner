@@ -57,7 +57,7 @@ This project is a mobile QR Code scanner app created with React Native and Expo.
 
 **📸 Screenshots**
 
-![QR Scanner]('./assets/1729776330928.jpeg')
+![QR Scanner](https://github.com/SasadaSaumya/Expo-QR-Code-Scanner/blob/main/assets/1729776330928.jpeg?raw=true)
 
 
 **🤝 Contributing**
